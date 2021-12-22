@@ -1,7 +1,7 @@
 import React from 'react';
-import './card.css';
+import './Tools.css';
 
-const Card = (props) => {
+const Tools = (props) => {
     return (
         <div>
 
@@ -9,4 +9,4 @@ const Card = (props) => {
     )
 }
 
-export default Card;
+export default Tools;
