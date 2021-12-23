@@ -1,0 +1,23 @@
+.banner {
+    text-align: center;
+    padding: 140px 0;
+    max-width: 1000px;
+    /* border-bottom: 1px solid #f1f4f6; */
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

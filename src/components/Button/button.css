@@ -1,12 +1,15 @@
 .button {
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 2.5px;
     border: 0;
     color: #fff;
     background-color: #4ec1fc;
     font-size: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .button:hover {

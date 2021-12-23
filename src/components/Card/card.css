@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.cardHead {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+    font-weight: 800;
+    background-color: #f3f5f7;
+    padding: 20px;
+    font-size: 17.5px;
+}
+
+.cardHeadText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cardBody {
+    padding: 20px 20px 10px;
+    color: #8f8f8f;
+    font-weight: 300;
+}
+
+.card:hover .cardHead {
+    color: #1597E5;
+}
