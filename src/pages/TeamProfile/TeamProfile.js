@@ -1,12 +1,8 @@
-import React from 'react';
-import './TeamProfile.css';
+import React from "react";
+import "./TeamProfile.css";
 
 const TeamProfile = (props) => {
-    return (
-        <div>
-
-        </div>
-    )
-}
+  return <div>TeamProfile</div>;
+};
 
 export default TeamProfile;

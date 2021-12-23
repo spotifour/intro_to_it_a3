@@ -1,12 +1,8 @@
-import React from 'react';
-import './GroupReflection.css';
+import React from "react";
+import "./GroupReflection.css";
 
 const GroupReflection = (props) => {
-    return (
-        <div>
-
-        </div>
-    )
-}
+  return <div>GroupReflection</div>;
+};
 
 export default GroupReflection;

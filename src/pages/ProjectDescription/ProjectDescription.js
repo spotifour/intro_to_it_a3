@@ -1,12 +1,8 @@
-import React from 'react';
-import './ProjectDescription.css';
+import React from "react";
+import "./ProjectDescription.css";
 
 const ProjectDescription = (props) => {
-    return (
-        <div>
-
-        </div>
-    )
-}
+  return <div>ProjectDescription</div>;
+};
 
 export default ProjectDescription;

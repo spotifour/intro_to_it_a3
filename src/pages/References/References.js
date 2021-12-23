@@ -1,12 +1,8 @@
-import React from 'react';
-import './References.css';
+import React from "react";
+import "./References.css";
 
 const References = (props) => {
-    return (
-        <div>
-
-        </div>
-    )
-}
+  return <div>References</div>;
+};
 
 export default References;

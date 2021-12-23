@@ -1,12 +1,8 @@
-import React from 'react';
-import './SkillsAndJobs.css';
+import React from "react";
+import "./SkillsAndJobs.css";
 
 const SkillsAndJobs = (props) => {
-    return (
-        <div>
-
-        </div>
-    )
-}
+  return <div>SkillsAndJobs</div>;
+};
 
 export default SkillsAndJobs;
