@@ -14,7 +14,7 @@ h2 {
   font-weight: 700;
 }
 
-p {
+p,li {
   line-height: 1.75;
 }
 
@@ -37,5 +37,5 @@ a {
 }
 
 .subsectionTitle {
-
+  
 }
