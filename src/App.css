@@ -14,11 +14,11 @@ h2 {
   font-weight: 700;
 }
 
-p,li {
+p,li,span,a {
   line-height: 1.75;
 }
 
-p,a,ul {
+p,a,ul,span {
   font-family: 'Quicksand', sans-serif;
 }
 

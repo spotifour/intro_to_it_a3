@@ -1,12 +1,10 @@
 .toolsText {
     font-size: 30px;
-    margin-top: 50px;
-    margin-top: 10px;
     font-weight: 300;
 }
 
 .toolsLink {
-    color: #1597E5;
+    color: #4ec1fc;
 }
 
 .toolsLink:hover {

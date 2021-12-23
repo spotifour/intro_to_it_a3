@@ -4,7 +4,6 @@ import "./Tools.css";
 import { comment } from "../../constants/tools";
 
 const Tools = (props) => {
-
   return (
     <div>
       <h1 className="sectionTitle">Tools</h1>
@@ -13,11 +12,12 @@ const Tools = (props) => {
         <li className="toolsText">
           Website's link:
           <span>
-          <a href="/">
-            <p className="toolsLink">
-              https://spotifour.github.io/intro_to_it_a3/
-            </p>
-          </a></span>
+            <a href="/">
+              <p className="toolsLink">
+                https://spotifour.github.io/intro_to_it_a3/
+              </p>
+            </a>
+          </span>
         </li>
         <li className="toolsText">
           Website's GitHub repository:
@@ -29,9 +29,11 @@ const Tools = (props) => {
         </li>
       </ul>
       <h2 className="sectionTitle">Comments</h2>
-      {comment.map((para) => {
-        return <p className="toolsText">{para}</p>;
-      })}
+      <div className="toolsText">
+        {comment.map((para) => {
+          return <p>{para}</p>;
+        })}
+      </div>
     </div>
   );
 };
