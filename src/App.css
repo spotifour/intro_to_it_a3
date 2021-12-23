@@ -1,11 +1,24 @@
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', sans-serif;
+  color: #333b40;
+  margin: 10px 0;
 }
 
-p {
-  font-family: 'Quicksand', sans-serif;;
+p,a {
+  font-family: 'Quicksand', sans-serif;
+  color: #333b40;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
+
+.buttonIcon {
+  margin-right: 7.5px;
+}
+
+/* .app {
+  width: 70%;
+  margin: auto;
+} */

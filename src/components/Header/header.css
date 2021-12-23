@@ -1,0 +1,75 @@
+.header {
+    border-bottom: 1px solid #f1f4f6;
+}
+
+.nav {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 0;
+    background-color: #f1f4f6;
+}
+
+.navBar {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamName {
+    font-size: 35px;
+    color: #4ec1fc;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    padding: 2.5px;
+}
+
+.logoImage {
+    width: 35px;
+    height: 35px;
+}
+
+.teamName:hover {
+    color: #1597E5;
+}
+
+.navItems {
+    display: flex;
+    gap: 25px;
+}
+
+.navItem {
+    font-size: 17.5px;
+}
+
+.navItem:hover {
+    color: #1597E5;
+}
+
+.banner {
+    text-align: center;
+    width: 65%;
+    margin: 140px auto;
+    max-width: 1000px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
