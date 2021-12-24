@@ -37,6 +37,7 @@
 .navItems {
     display: flex;
     gap: 25px;
+    color: #333b40;
 }
 
 .navItem {

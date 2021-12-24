@@ -48,3 +48,30 @@ export const HomepageContent = [
     url: '/references'
   },
 ];
+
+export const sections = [
+  {
+    name: 'Team Profile',
+    path: '/teamProfile'
+  },
+  {
+    name: 'Tools',
+    path: '/tools'
+  },
+  {
+    name: 'Project Description',
+    path: '/projectDescription'
+  },
+  {
+    name: 'Skills And Jobs',
+    path: '/skillsAndJobs'
+  },
+  {
+    name: 'Group Reflection',
+    path: '/groupReflection'
+  },
+  {
+    name: 'References',
+    path: '/references'
+  },
+]

@@ -9,11 +9,7 @@
     color: #333b40;
 }
 
-.referenceOrder {
-    color: #1597E5;
-}
-
-.referenceLink {
+.referenceOrder, .referenceLink {
     color: #4ec1fc;
 }
 
