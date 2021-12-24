@@ -18,10 +18,10 @@ const Header = (props) => {
             Project Description
           </a>
           <a className="navItem" href="/SkillsAndJobs">
-            Skills and jobs
+            Skills And Jobs
           </a>
           <a className="navItem" href="/groupReflection">
-            Group reflection
+            Group Reflection
           </a>
           <a className="navItem" href="/references">
             References

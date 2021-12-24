@@ -23,7 +23,7 @@ const TeamProfile = (props) => {
       <h1 className="sectionTitle">Team Profile</h1>
       <h2 className="sectionTitle">Team Members</h2>
       <div className="memberImages">{teamMembers}</div>
-      <h2 className="sectionTitle">Team information</h2>
+      <h2 className="sectionTitle">Team Information</h2>
       <div className="teamProfileMain">{teamProfileMain}</div>
     </div>
   );
