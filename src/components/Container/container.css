@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    border: 1px solid #8f8f8f;
+    padding: 20px 30px;
+    border-radius: 5px;
+    height: 300px;
+    gap: 40px;
+    background-color: rgba(0,0,0,.01);
+    color: #333b40;
+}
+.containerLeft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.containerLeft img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.containerRight {
+    flex: 6;
+    overflow: scroll;
+}
+

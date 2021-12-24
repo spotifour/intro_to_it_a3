@@ -9,22 +9,18 @@ const Tools = (props) => {
       <h1 className="sectionTitle">Tools</h1>
       <h2 className="sectionTitle">Links</h2>
       <ul>
-        <li className="toolsText">
-          Website's link:
+        <li className="toolsLink">
+          <span>Website's link:</span>
           <span>
-            <a href="/">
-              <p className="toolsLink">
+            <a className="toolsUrl" href="/">
                 https://spotifour.github.io/intro_to_it_a3/
-              </p>
             </a>
           </span>
         </li>
-        <li className="toolsText">
+        <li className="toolsLink">
           Website's GitHub repository:
-          <a href="https://github.com/spotifour/intro_to_it_a3">
-            <p className="toolsLink">
+          <a className="toolsUrl" href="https://github.com/spotifour/intro_to_it_a3">
               https://github.com/spotifour/intro_to_it_a3
-            </p>
           </a>
         </li>
       </ul>

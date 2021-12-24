@@ -1,12 +1,13 @@
-.toolsText {
-    font-size: 30px;
+.toolsText, .toolsLink {
+    font-size: 25px;
     font-weight: 300;
 }
 
-.toolsLink {
+.toolsUrl {
     color: #4ec1fc;
+    margin-left: 10px;
 }
 
-.toolsLink:hover {
+.toolsUrl:hover {
     text-decoration: underline;
 }
