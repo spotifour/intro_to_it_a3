@@ -12,7 +12,7 @@ export const members = [
   },
   {
     name: "Dang Thai Hoang",
-    image: "ThaiHoang.jpg",
+    image: "ThaiHoang.jpeg",
   },
   {
     name: "Vu Tuan Linh",

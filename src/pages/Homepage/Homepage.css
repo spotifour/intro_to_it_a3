@@ -1,5 +1,54 @@
 .homepageMain {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
+}
+
+.homepageItem {
+  position: relative;
+  border : 1px solid #8f8f8f;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.02);
+}
+
+.homepageItem:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.homepageItem > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.homepageSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.homepageSectionName {
+  text-align: center;
+}
+
+.sectionLinkContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #4ec1fc;
+  border : 1px solid #8f8f8f;
+  border-radius: 5px;
+}
+
+.homepageLink:hover {
+  text-decoration: underline;
 }

@@ -2,32 +2,32 @@ import React from "react";
 import "./Homepage.css";
 
 import Banner from "../../components/Banner/Banner";
-import Card from "../../components/Card/Card";
-import Button from "../../components/Button/Button";
-import { HomepageContent } from "../../constants/other";
+import FlippingContent from "../../components/FlippingContent/FlippingContent";
+import { sections } from "../../constants/other";
 
 const Homepage = (props) => {
-  const cards = HomepageContent.map((item) => {
-    const head = (
-      <>
-        {item.icon}
-        <h4>{item.section}</h4>
-      </>
-    );
-    const body = (
-      <>
-        <p>{item.description}</p>
-        <a href={item.url}>
-          <Button style={{ width: "100%", }}>Read more</Button>
+  const homepageContent = sections.map((section) => {
+    const back = (
+      <div className="sectionLinkContainer">
+        <a className="homepageLink" href={section.path}>
+          <p>Open</p>
         </a>
-      </>
+      </div>
     );
-    return <Card head={head} body={body} />;
+    const front = (
+      <div className="homepageItem">
+        <div className="homepageSection">
+          <h2 className="homepageSectionName">{section.name}</h2>
+          {section.icon}
+        </div>
+      </div>
+    );
+    return <FlippingContent front={front} back={back} />;
   });
   return (
     <div className="homepage">
       <Banner />
-      <div className="homepageMain">{cards}</div>
+      <div className="homepageMain">{homepageContent}</div>
     </div>
   );
 };

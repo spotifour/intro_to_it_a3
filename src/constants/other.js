@@ -1,77 +1,40 @@
 import { AiOutlineTeam, AiFillProject } from "react-icons/ai";
 import { FaTools } from "react-icons/fa";
-import { GrUserManager } from "react-icons/gr";
-import { MdGroups } from "react-icons/md";
+import { MdGroups, MdOutlineManageAccounts } from "react-icons/md";
 import { VscReferences } from "react-icons/vsc";
 
-export const HomepageContent = [
-  {
-    section: "Team Profile",
-    description:
-      "Erat et ipsum diam voluptua vero clita ea ipsum sed. Diam et elitr et rebum diam duo tempor. No duo.",
-    icon: <AiOutlineTeam />,
-    url: '/teamProfile'
-  },
-  {
-    section: "Tools",
-    description:
-      "Erat et ipsum diam voluptua vero clita ea ipsum sed. Diam et elitr et rebum diam duo tempor. No duo.",
-    icon: <FaTools />,
-    url: '/tools'
-  },
-  {
-    section: "Project Description",
-    description:
-      "Erat et ipsum diam voluptua vero clita ea ipsum sed. Diam et elitr et rebum diam duo tempor. No duo.",
-    icon: <AiFillProject />,
-    url: '/projectDescription'
-  },
-  {
-    section: "Skills And Jobs",
-    description:
-      "Erat et ipsum diam voluptua vero clita ea ipsum sed. Diam et elitr et rebum diam duo tempor. No duo.",
-    icon: <GrUserManager />,
-    url: '/skillsAndJobs'
-  },
-  {
-    section: "Group Reflection",
-    description:
-      "Erat et ipsum diam voluptua vero clita ea ipsum sed. Diam et elitr et rebum diam duo tempor. No duo.",
-    icon: <MdGroups />,
-    url: '/groupReflection'
-  },
-  {
-    section: "References",
-    description:
-      "Erat et ipsum diam voluptua vero clita ea ipsum sed. Diam et elitr et rebum diam duo tempor. No duo.",
-    icon: <VscReferences />,
-    url: '/references'
-  },
-];
+const sectionIconSize = 70;
+const sectionIconColor = '#4ec1fc';
 
 export const sections = [
   {
     name: 'Team Profile',
-    path: '/teamProfile'
+    path: '/teamProfile',
+    icon: <AiOutlineTeam size={sectionIconSize} color={sectionIconColor} />
   },
   {
     name: 'Tools',
-    path: '/tools'
+    path: '/tools',
+    icon: <FaTools size={sectionIconSize} color={sectionIconColor} />
   },
   {
     name: 'Project Description',
-    path: '/projectDescription'
+    path: '/projectDescription',
+    icon: <AiFillProject size={sectionIconSize} color={sectionIconColor} />
   },
   {
     name: 'Skills And Jobs',
-    path: '/skillsAndJobs'
+    path: '/skillsAndJobs',
+    icon: <MdOutlineManageAccounts size={sectionIconSize} color={sectionIconColor} />
   },
   {
     name: 'Group Reflection',
-    path: '/groupReflection'
+    path: '/groupReflection',
+    icon: <MdGroups size={sectionIconSize} color={sectionIconColor} />
   },
   {
     name: 'References',
-    path: '/references'
+    path: '/references',
+    icon: <VscReferences size={sectionIconSize} color={sectionIconColor} />
   },
 ]

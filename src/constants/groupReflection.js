@@ -17,7 +17,7 @@ export const reflectionInfo = {
         "Eos takimata vero accusam est amet no. Sit stet amet et et at. Duo et sit at ea et nonumy..",
       ],
     ],
-    image: <img src="ThaiHoang.jpg" alt='Dang_Thai_Hoang' />,
+    image: <img src="ThaiHoang.jpeg" alt='Dang_Thai_Hoang' />,
   },
   Vu_Tuan_Linh: {
     text: [
