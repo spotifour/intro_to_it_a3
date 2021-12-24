@@ -1,0 +1,23 @@
+.teamProfileMain {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.memberImages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.memberImage {
+    width: 150px;
+    height: 150px;
+}
+
+.memberNameContainer {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -16,6 +16,7 @@
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    font-size: 20px;
 }
 
 .containerLeft img {
@@ -27,5 +28,7 @@
 .containerRight {
     flex: 6;
     overflow: scroll;
+    color: #8f8f8f;
+    font-size: 20px;
 }
 
