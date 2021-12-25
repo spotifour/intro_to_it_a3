@@ -13,14 +13,17 @@ const Tools = (props) => {
           <span>Website's link:</span>
           <span>
             <a className="toolsUrl" href="/">
-                https://spotifour.github.io/intro_to_it_a3/
+              https://intro-to-it-a3.web.app/
             </a>
           </span>
         </li>
         <li className="toolsLink">
           Website's GitHub repository:
-          <a className="toolsUrl" href="https://github.com/spotifour/intro_to_it_a3">
-              https://github.com/spotifour/intro_to_it_a3
+          <a
+            className="toolsUrl"
+            href="https://github.com/spotifour/intro_to_it_a3"
+          >
+            https://github.com/spotifour/intro_to_it_a3
           </a>
         </li>
       </ul>
