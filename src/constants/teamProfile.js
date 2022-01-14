@@ -5,7 +5,7 @@ import { MdManageAccounts } from "react-icons/md";
 
 const iconColor = '#4ec1fc';
 
-const iconSize = 70;
+const iconSize = 100;
 
 export const members = [
   {

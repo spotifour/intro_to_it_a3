@@ -14,6 +14,10 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 25px;
+}
+
 p,li,span,a {
   line-height: 1.75;
 }

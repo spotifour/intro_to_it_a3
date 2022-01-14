@@ -1,128 +1,98 @@
 export const refs = [
-    {
-        order: 1,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 2,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 3,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 4,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 5,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 6,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 7,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 8,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 9,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 10,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 11,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 12,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 13,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 14,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 15,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 16,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 17,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 18,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 19,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 20,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
-    {
-        order: 21,
-        name: 'Ut ipsum erat dolore lorem duo dolore dolor eos, sed.',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll',
-        date: "(accessed Dec. 7,2021)"
-    },
+  {
+    order: 1,
+    name: `Adaptive Sound Technologies, Inc. “White, Pink, and Brown Noise: What's the difference?.” Sound of Sleep.`,
+    link: "https://www.soundofsleep.com/white-pink-brown-noise-whats-difference/",
+    date: "(accessed Jan. 8, 2022).",
+  },
+  {
+    order: 2,
+    name: `M. Lozhko. “15 top web development trends in 2021.” lanars.`,
+    link: "https://lanars.com/blog/top-web-development-trends",
+    date: "(accessed Jan. 8, 2022).",
+  },
+  {
+    order: 3,
+    name: 'myNoise. "Focus at Work • Relax at Home • Sleep at Night." mynoise.net.',
+    link: "https://mynoise.net/",
+    date: "(accessed Jan. 8, 2022).",
+  },
+  {
+    order: 4,
+    name: "ZOOM. “H4n Pro Four-Track Audio Recorder.” Zoomcorp.com.",
+    link: "https://zoomcorp.com/en/ca/handheld-recorders/handheld-recorders/h4n-pro/",
+    date: "(accessed Jan. 8, 2022).",
+  },
+  {
+    order: 5,
+    name: "React. “React - A javascript library for building user interfaces.” reactjs.org.",
+    link: "https://reactjs.org/",
+    date: "(accessed Dec. 9, 2021).",
+  },
+  {
+    order: 6,
+    name: "Spotify for Developer. “Web API.” developer.spotify.com. ",
+    link: "https://developer.spotify.com/documentation/web-api/",
+    date: "(accessed Dec. 9, 2021).",
+  },
+  {
+    order: 7,
+    name: "A. Demarest. “What Is Canva? a Guide to the Graphic Design Platform.” Business Insider.",
+    link: "https://www.businessinsider.com/what-is-canva",
+    date: "(accessed Jan. 8, 2022).",
+  },
+  {
+    order: 8,
+    name: "Mynewmicrophone. “Best Microphones For Recording Ambience.” mynewmicrophone.com.",
+    link: "https://mynewmicrophone.com/ambience/",
+    date: "(accessed Dec. 9, 2021).",
+  },
+  {
+    order: 9,
+    name: "Unsplash. “The internet’s source of freely-usable images.” unsplash.com.",
+    link: "https://unsplash.com/",
+    date: "(accessed Dec. 9, 2021).",
+  },
+  {
+    order: 10,
+    name: "Firebase. “Firebase helps you build and run successful apps.” firebase.google.com.",
+    link: "https://firebase.google.com/",
+    date: "(accessed Dec. 9, 2021).",
+  },
+  {
+    order: 11,
+    name: "J. Keeley. “What Is Google Meet and How Does It Work?” MakeUseOf.",
+    link: "https://www.makeuseof.com/tag/what-is-google-meet/",
+    date: "(accessed Dec. 24, 2021).",
+  },
+  {
+    order: 12,
+    name: "M. Weir. “What Is Asana? How the App Works, How to Use It” Business Insider.",
+    link: "https://www.businessinsider.com/what-is-asana",
+    date: "(accessed Dec. 24, 2021).",
+  },
+  {
+    order: 13,
+    name: 'J. Zilincan, "Search engine optimization," in CBU International Conference Proceedings, 2015, vol. 3, pp. 506-510.',
+    link: "",
+    date: "",
+  },
+  {
+    order: 14,
+    name: "LOCALiQ. “What Is PPC? Learn the Basics of Pay-Per-Click Marketing.” WordStream.com.",
+    link: "https://www.wordstream.com/ppc",
+    date: "(accessed Jan. 2, 2022).",
+  },
+  {
+    order: 15,
+    name: "MuleSoft. “What is an API? (Application Programming Interface).”  Mulesoft.com.",
+    link: "https://www.mulesoft.com/resources/api/what-is-an-api",
+    date: "(accessed Jan. 2, 2022).",
+  },
+  {
+    order: 16,
+    name: "G. G. Schulmeyer, Handbook of software quality assurance: Artech House, Inc., 2007.",
+    link: "",
+    date: "",
+  },
 ];

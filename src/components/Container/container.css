@@ -3,7 +3,7 @@
     border: 1px solid #8f8f8f;
     padding: 20px 30px;
     border-radius: 5px;
-    height: 300px;
+    height: 400px;
     gap: 40px;
     background-color: rgba(0,0,0,.02);
     color: #333b40;
@@ -20,13 +20,14 @@
 }
 
 .containerLeft img {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
+    border: 1px solid #8f8f8f;
 }
 
 .containerRight {
-    flex: 6;
+    flex: 4.5;
     overflow: scroll;
     color: #8f8f8f;
     font-size: 20px;
